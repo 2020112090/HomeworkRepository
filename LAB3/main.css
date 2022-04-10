@@ -1,0 +1,135 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: black;
+    text-align: left;
+}
+
+.Signup{
+    background-color: greenyellow;
+    margin: 5px;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.Cancel{
+    background-color: red;
+    margin: 5px;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.Login{
+    background-color: lightgreen;
+    margin: 5px;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center
+}
+
+.NewSignup{
+    background-color: skyblue;
+    margin: 5px;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center
+}
+
+.hrefLogin{
+    background-color: white;
+    margin: 5px;
+    padding: 1px;
+    width: 60px;
+    height: 25px;
+    border: 1px white;
+    text-align: center
+}
+
+.hrefSignup{
+    background-color: white;
+    margin: 5px;
+    padding: 1px;
+    width: 60px;
+    height: 25px;
+    border: 1px white;
+    text-align: center
+}
+
+.hrefMainPage{
+    background-color: white;
+    margin: 5px;
+    padding: 1px;
+    width: 70px;
+    height: 25px;
+    border: 1px white;
+    text-align: center
+}
+
+.MainSignup{
+    background-color: white;
+    margin: 5px;
+    padding: 1px;
+    width: 60px;
+    height: 25px;
+    border: 1px solid red;
+    border-width: 3px 0px 3px 0px;
+    text-align: center
+}
+
+.MainLogin{
+    background-color: white;
+    margin: 5px;
+    padding: 1px;
+    width: 60px;
+    height: 25px;
+    border: 1px solid red;
+    border-width: 3px 0px 3px 0px;
+    text-align: center
+}
+
+.MainPage{
+    background-color: white;
+    margin: 5px;
+    padding: 1px;
+    width: 70px;
+    height: 25px;
+    border: 1px solid red;
+    border-width: 3px 0px 3px 0px;
+    text-align: center
+}
+
+.Kurly{
+    position:relative;
+    Animation-name:RtL;
+    Animation-duration:2s;
+}
+
+@keyframes RtL {
+    from {left:1020px;}
+    to {left: 0px;}
+}
+
+.rotate{
+    transition: all 2s ease-out;
+}
+
+.rotate:hover{transform:rotate(360deg);
+}
+
+.enlarge{
+    transition: all 2s ease-out;
+}
+
+.enlarge:hover{
+    width:450px;
+    height:300px;
+}
