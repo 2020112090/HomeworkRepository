@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <style>
+            *{box-sizing:border-box;}
+        </style>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+        <meta charset="utf-8">
+            <title>Signup</title>
+    </head>
+    <body>
+        <h1>
+            <header>
+                <hr style = height:20px;background-color:purple;text-align:center;/>
+                <div style="border:2px solid white; padding:0px; margin-left: auto;margin-right: auto;">
+                    <div style="padding-left:5px;">안녕하세요 마켓컬리입니다.</div>
+                </div>
+            </header>
+            <nav>
+                <div style="border:2px solid white; padding:0px; margin-left: auto;margin-right: auto;">
+                    <ul>
+                    <li><a href="index.html"><input class="hrefMainPage" type="button" value="메인페이지"></a></li>
+                    <li><a href="login.html"><input class="hrefLogin" type="button" value="로그인"></a></li>
+                    <li><input class="MainSignup" value="회원가입" type="button"></li>
+                </div>
+            </nav>
+        </h1>
+        <div style="border:2px solid purple; padding:0px; margin-left: auto;margin-right: auto; text-align: left;">
+        <form>
+            <br>
+            <b>개인정보(필수)</b><br>
+            이름: <input type="text" name="name" placeholder="이름을 입력하세요" autofocus="autofocus"/><br>
+            생일: <input type="date"/><br>
+            학년: <input type="number" name="number" min="1" max="6" step="1"/><br>
+            전화번호: <input type="tel" placeholder="(###)###-####" pattern="\(\d{3}\)\d{3}-\d{4}" required/><br>
+            유저 아이디: <input type="text" name="ID" placeholder="아이디를 입력하세요"/><br>
+            비밀번호: <input type="password" name="PW" placeholder="비밀번호를 입력하세요"/><br>
+            비밀번호 확인: <input type="password" name="PWcon" placeholder="비밀번호 확인"/><br>
+
+            <input class="Signup" value="Signup" type="submit"/>
+            <input class="Cancel" value="Cancel" type="submit" formnovalidate/>
+        </form>
+        <br>
+        </div>
+    </body>
+</html>

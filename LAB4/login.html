@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <style>
+            *{box-sizing:border-box;}
+        </style>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+        <meta charset="utf-8">
+            <title>Login</title>
+    </head>
+    <body>
+        <h1>
+            <header>
+                <hr style = height:20px;background-color:purple;text-align:center;/>
+                <div style="border:2px solid white; padding:0px; margin-left: auto;margin-right: auto;">
+                    <div style="padding-left:5px;">안녕하세요 마켓컬리입니다.</div>
+                </div>
+            </header>
+            <nav>
+                <div style="border:2px solid white; padding:0px; margin-left: auto;margin-right: auto;">
+                    <ul>
+                    <li><a href="index.html"><input class="hrefMainPage" type="button" value="메인페이지"></a></li>
+                    <li><input class="MainLogin" value="로그인" type="button"></li>
+                    <li><a href="signup.html"><input class="hrefSignup" value="회원가입" type="button"></a></li>
+                </div>
+            </nav>
+        </h1>
+        <div style="border:2px solid purple; padding:0px; margin-left: auto;margin-right: auto; text-align: left;">
+            <br>
+        <form>
+            <b>회원 정보(필수)</b><br>
+            유저 아이디: <input type="text" name="ID" placeholder="아이디를 입력하세요"/><br>
+            비밀번호: <input type="password" name="PW" placeholder="비밀번호를 입력하세요"/><br>
+            비밀번호 확인: <input type="password" name="PWcon" placeholder="비밀번호 확인"/><br>
+
+            <input class="Login" value="로그인" type="submit"/>
+            <input class="NewSignup" value="회원가입" type="submit" formnovalidate/>
+        </form>
+        <br>
+        </div>
+    </body>
+</html>
