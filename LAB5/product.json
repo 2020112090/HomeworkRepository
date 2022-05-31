@@ -1,0 +1,98 @@
+[
+    {
+        "name": "파",
+        "type": "채소",
+        "file": "greenonion.jpg",
+        "price": "1,500원",
+        "description": "한끼용 손질 대파"
+    },
+
+    {
+        "name": "양파",
+        "type": "채소",
+        "file": "onion.jpg",
+        "price": "2,000원",
+        "description": "싱싱한 국내산 햇양파"
+    },
+
+    {
+        "name": "마늘",
+        "type": "채소",
+        "file": "garlic.jpg",
+        "price": "1,800원",
+        "description": "건강한 국내산 유기농 깐마늘"
+    },
+
+    {
+        "name": "생강",
+        "type": "채소",
+        "file": "ginger.jpg",
+        "price": "3,000원",
+        "description": "생강, 필요한 만큼만 실속 있게"
+    },
+
+    {
+        "name": "사과",
+        "type": "과일",
+        "file": "apple.jpg",
+        "price": "7,500원",
+        "description": "아삭아삭 무농약 국산 사과"
+    },
+
+    {
+        "name": "배",
+        "type": "과일",
+        "file": "pear.jpg",
+        "price": "4,600원",
+        "description": "당도 높은 국산 배"
+    },
+
+    {
+        "name": "아보카도",
+        "type": "과일",
+        "file": "avocado.jpg",
+        "price": "7,500원",
+        "description": "아보카도, 필요한 만큼만 간편하게"
+    },
+
+    {
+        "name": "체리",
+        "type": "과일",
+        "file": "cherry.jpg",
+        "price": "7,000원",
+        "description": "싱싱한 무농약 국산 생체리"
+    },
+
+    {
+        "name": "소고기",
+        "type": "육류",
+        "file": "beef.jpg",
+        "price": "15,000원",
+        "description": "그릴에 구워 먹는 구이용 채끝살"
+    },    
+
+    {
+        "name": "돼지고기",
+        "type": "육류",
+        "file": "pork.jpg",
+        "price": "10,000원",
+        "description": "촉촉한 육질, 무항생제 삼겹살"
+    },   
+
+    {
+        "name": "닭고기",
+        "type": "육류",
+        "file": "chicken.jpg",
+        "price": "10,000원",
+        "description": "신선한 동물복지 닭고기"
+    },   
+
+    {
+        "name": "양고기",
+        "type": "육류",
+        "file": "lamb.jpg",
+        "price": "16,000원",
+        "description": "스테이크용 호주산 어린양 등심"
+    } 
+
+]
